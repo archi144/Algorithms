@@ -20,7 +20,7 @@ void bubble_sort(std::array<int,T> &array)
             }
         }
         if (sorted)
-            break;
+            return;
     }
 }
 
