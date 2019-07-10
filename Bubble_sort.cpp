@@ -39,6 +39,3 @@ int main()
         cout<<it<<" ";
     }
 }
-
-
-
