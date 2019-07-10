@@ -27,7 +27,12 @@ int binary_search(std::array<int, SIZE> array,int sought_value)    //function re
         if(current==sought_value)
         {
             cout<<"Find!\nIndex = "<<middle<<std::endl;
-            return middle;    
+            return middle;
+        }
+        if(max==min)
+        {
+            cout<<"Element not found"<<std::endl;
+            return 0;
         }
     }
 }
@@ -38,6 +43,3 @@ int main()
     int b = binary_search(array,need_search);
 
 }
-
-
-
